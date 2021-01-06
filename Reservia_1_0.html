@@ -3,29 +3,53 @@
 <html>
    <head>
     <!-- En-tête de la page -->
-        <meta charset="utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Reservia</title>
    </head>
 <body>
-        <!-- Partie une -->
-   <header>
-        <h1>Reservia</h1> <!-- Nom de la page web -->
-    <br />
-        <h2>Trouvez votre hébergement pour des vacances de rêve</h2> <br />
-        <p>En plein centre ville ou en pleine nature</p>
-   </header>
-        
-<!--Zone de recherche non fonctionnel-->
-    <input type="search" value="Marseille, France"><a href="Rechercher.html">Rechercher</a>
-  
-<!-- Boutons "hébergements" et "activités" -->
-   <section>
-        <p>
-            <a href="#Hébergements à Marseille">Hébergements</a>   <a href="#Activités à Marseille">Activités</a>
-            S'inscrire
-        </p>
 
-        
-       </section> 
+   <!-- Partie Header -->
+<header>
+    <nav>
+        <!-- Nom de la page web -->
+        <h1><a href="Reservia">Reservia</a></h1> 
+        <!-- Boutons "hébergements" et "activité" -->
+        <a href="Hébergements">Hébergements</a>
+        <a href="Activités">Activités</a>
+        <a href="S'inscrire">S'inscrire</a>
+    </nav>
+</header>
+
+<p>
+    <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+    En plein centre ville ou en pleine nature
+</p>  
+ 
+
+<!--Zone de recherche non fonctionnel-->
+<p>
+    <input type="search" value="Marseille, France"><a href="Rechercher.html">Rechercher</a>
+</p>
+
+
+   <!-- Filtres -->
+<div class="Filtres">
+    <p>
+    <form method="post" action="traitement.php">
+        Filtres
+        <i class="fas fa-money-bill-wave"></i> <input type="button" value="Economique">
+        <i class="fas fa-child"></i> <input type="button" value="Familial">
+        <i class="fas fa-heart"></i> <input type="button" value="Romantique">
+        <i class="fas fa-dog"></i> <input type="button" value="Animaux autorisés">       
+
+    </form>
+    </p>
+</div>
+   
+   <footer>
+   </footer>
 
 </body>
 
