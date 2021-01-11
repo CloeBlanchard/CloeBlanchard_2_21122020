@@ -1,0 +1,25 @@
+/*Mise en page logo*/
+#logo
+{
+    width: 6%;
+    position: absolute;
+}
+/* Position du menu*/
+header a
+{
+    text-decoration: none;
+    color: #0065fc;
+}
+.menu
+{
+    text-align: right;
+}
+#activite a
+{
+    color: black;
+}
+.inscri
+{
+    color: #0065FC;
+    font-weight: bold;
+}
