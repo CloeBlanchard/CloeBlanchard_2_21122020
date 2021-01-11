@@ -1,8 +1,9 @@
 /*Mise en page logo*/
 #logo
 {
-    width: 6%;
+    width: 4%;
     position: absolute;
+
 }
 /* Position du menu*/
 header a
@@ -10,16 +11,55 @@ header a
     text-decoration: none;
     color: #0065fc;
 }
+
+/*Bouton menu*/
 .menu
 {
     text-align: right;
+    font-size: 13px;
 }
 #activite a
 {
     color: black;
 }
-.inscri
+.inscription
 {
     color: #0065FC;
+    font-weight: bold;
+}
+h2
+{
+    text-justify: auto;
+    font-size: 15px;
+}
+.vacances
+{
+    font-size: 13px;
+}
+
+/* Mise en page barre de recherche*/
+.fa-map-marker-alt
+{
+    font-weight: bolder;
+    background-color: #f2f2f2;
+    border: 5.5px solid #f2f2f2;
+    border-radius: 5px 0px 0px 5px;
+    float: left;
+    font-size: 8.5px;
+}
+.recherche a
+{
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: #0065fc;
+    color: white;
+    border: 2px solid #0065fc;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 14px;
+}
+.marseille
+{
+    border-radius: 0px 0px 0px 0px;
+    border: solid 1px #F2F2F2;
     font-weight: bold;
 }
