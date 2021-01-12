@@ -64,3 +64,105 @@ h2
     font-weight: bold;
 }
 /* Mise ne page des Filtres*/
+.fa-money-bill-wave
+{
+    background: #DEEBFF;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 8.5px;
+    color: #0065FC;
+    line-height: 9px;
+    vertical-align: middle;
+    padding: 9px
+}
+.fa-child
+{
+    background: #DEEBFF;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 8.5px;
+    color: #0065FC;
+    line-height: 9px;
+    vertical-align: middle;
+    padding: 9px
+}
+.fa-heart
+{
+    background: #DEEBFF;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 8.5px;
+    color: #0065FC;
+    line-height: 9px;
+    vertical-align: middle;
+    padding: 9px
+}
+.fa-dog
+{
+    background: #DEEBFF;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 8.5px;
+    color: #0065FC;
+    line-height: 9px;
+    vertical-align: middle;
+    padding: 9px
+}
+.economie
+{
+    border-radius: 50px;
+    border: 1px solid #F2F2F2;
+    display: inline-block;
+    font-weight: bold;
+    border-left: none;
+    font-size: 12px;
+}
+.famille
+{
+    border-radius: 50px;
+    border: 1px solid #F2F2F2;
+    display: inline-block;
+    font-weight: bold;
+    border-left: none;
+    font-size: 12px;
+}
+.romantique
+{
+    border-radius: 50px;
+    border: 1px solid #F2F2F2;
+    display: inline-block;
+    font-weight: bold;
+    border-left: none;
+    font-size: 12px;
+}
+.animaux
+{
+    border-radius: 50px;
+    border: 1px solid #F2F2F2;
+    display: inline-block;
+    font-weight: bold;
+    border-left: none;
+    font-size: 12px;
+}
+.fa-info
+{
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    border: solid 2px #f2f2f2;
+    font-size: 8.5px;
+    color: #0065fc;
+    text-align: center;
+    line-height: 9px;
+    vertical-align: middle;
+    padding: 9px;
+}
+/*Fin mise en page Filtres*/
