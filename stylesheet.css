@@ -166,3 +166,38 @@ h2
     padding: 9px;
 }
 /*Fin mise en page Filtres*/
+
+/*Bloc hébergements*/
+.Hebergements a
+{
+    text-decoration: none;
+    color: black;
+}
+/*Bloc activité*/
+.activites a
+{
+    text-decoration: none;
+    color: black;
+}
+/*Bloc Footer*/
+ul
+{
+    list-style-type: none; 
+}
+footer
+{
+    display: flex;
+    background-color: #f2f2f2;
+}
+.propos
+{
+    flex: 1 1 auto;
+}
+.charte
+{
+    flex: 1 1 auto;
+}
+.assistance
+{
+   flex: 1 1 auto;
+}
