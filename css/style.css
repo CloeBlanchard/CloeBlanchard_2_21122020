@@ -50,7 +50,7 @@ h2
 .recherche a
 {
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: bold;
     background-color: #0065fc;
     color: white;
     border: 2px solid #0065fc;
@@ -63,4 +63,207 @@ h2
     border: solid 1px #F2F2F2;
     font-weight: bold;
 }
+/*Fin du bloc recherche*/
+
 /* Mise ne page des Filtres*/
+.fa-money-bill-wave
+{
+    background: #DEEBFF;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 8.5px;
+    color: #0065FC;
+    line-height: 9px;
+    vertical-align: middle;
+    padding: 9px
+}
+.fa-child
+{
+    background: #DEEBFF;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 8.5px;
+    color: #0065FC;
+    line-height: 9px;
+    vertical-align: middle;
+    padding: 9px
+}
+.fa-heart
+{
+    background: #DEEBFF;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 8.5px;
+    color: #0065FC;
+    line-height: 9px;
+    vertical-align: middle;
+    padding: 9px
+}
+.fa-dog
+{
+    background: #DEEBFF;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 8.5px;
+    color: #0065FC;
+    line-height: 9px;
+    vertical-align: middle;
+    padding: 9px
+}
+.economie
+{
+    border-radius: 50px;
+    border: 1px solid #F2F2F2;
+    display: inline-block;
+    font-weight: bold;
+    border-left: none;
+    font-size: 12px;
+}
+.famille
+{
+    border-radius: 50px;
+    border: 1px solid #F2F2F2;
+    display: inline-block;
+    font-weight: bold;
+    border-left: none;
+    font-size: 12px;
+}
+.romantique
+{
+    border-radius: 50px;
+    border: 1px solid #F2F2F2;
+    display: inline-block;
+    font-weight: bold;
+    border-left: none;
+    font-size: 12px;
+}
+.animaux
+{
+    border-radius: 50px;
+    border: 1px solid #F2F2F2;
+    display: inline-block;
+    font-weight: bold;
+    border-left: none;
+    font-size: 12px;
+}
+.fa-info
+{
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    border: solid 2px #f2f2f2;
+    font-size: 8.5px;
+    color: #0065fc;
+    text-align: center;
+    line-height: 7px;
+    vertical-align: middle;
+    padding: 7px;
+}
+/*Fin mise en page Filtres*/
+
+/*Bloc populaires'*/
+.groupepop
+{
+    list-style-type: none;
+    float: right;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    
+    
+}
+.poputexte
+{
+    border: solid 4px white ;
+    height: 180px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+}
+.photo
+{
+    width: 184px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+    vertical-align: middle;   
+}
+.texte
+{
+    display: inline-block;
+    position: relative;
+    
+}
+
+span
+{
+    font-weight: bold;
+}
+
+/*Fin bloc populaires*/
+
+/*Bloc hébergements*/
+.Hebergements
+{
+    list-style-type: none;
+    width: 700px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+.Hebergements a
+{
+    text-decoration: none;
+    color: black;
+}
+.hebertexte
+{
+    border: white 4px solid;
+    width: 220px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+}
+.photoheberge
+{
+    width: 220px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+/*Fin bloc hébergements*/
+
+/*Bloc activité*/
+.activites a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/*Bloc Footer*/
+ul
+{
+    list-style-type: none; 
+}
+footer
+{
+    display: flex;
+    background-color: #f2f2f2;
+}
+.propos
+{
+    flex: 1 1 auto;
+}
+.charte
+{
+    flex: 1 1 auto;
+}
+.assistance
+{
+   flex: 1 1 auto;
+}
