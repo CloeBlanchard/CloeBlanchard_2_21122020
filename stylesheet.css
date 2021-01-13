@@ -50,7 +50,7 @@ h2
 .recherche a
 {
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: bold;
     background-color: #0065fc;
     color: white;
     border: 2px solid #0065fc;
@@ -63,6 +63,8 @@ h2
     border: solid 1px #F2F2F2;
     font-weight: bold;
 }
+/*Fin du bloc recherche*/
+
 /* Mise ne page des Filtres*/
 .fa-money-bill-wave
 {
@@ -155,15 +157,15 @@ h2
 .fa-info
 {
     border-radius: 50%;
-    width: 9px;
-    height: 9px;
+    width: 7px;
+    height: 7px;
     border: solid 2px #f2f2f2;
     font-size: 8.5px;
     color: #0065fc;
     text-align: center;
-    line-height: 9px;
+    line-height: 7px;
     vertical-align: middle;
-    padding: 9px;
+    padding: 7px;
 }
 /*Fin mise en page Filtres*/
 
@@ -173,7 +175,16 @@ h2
     list-style-type: none;
     float: right;
     background-color: #f2f2f2;
+    border-radius: 20px;
+    
+    
+}
+.poputexte
+{
+    border: solid 4px white ;
+    height: 180px;
     border-radius: 10px 10px 10px 10px;
+    background-color: white;
 }
 .photo
 {
@@ -181,15 +192,13 @@ h2
     height: 180px;
     object-fit: cover;
     border-radius: 10px 0px 0px 10px;
-    vertical-align: middle;
-    
+    vertical-align: middle;   
 }
 .texte
 {
     display: inline-block;
     position: relative;
-    border: white 2px solid;
-    background-color: white;
+    
 }
 
 span
@@ -200,15 +209,25 @@ span
 /*Fin bloc populaires*/
 
 /*Bloc hébergements*/
+.Hebergements
+{
+    list-style-type: none;
+    width: 700px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
 .Hebergements a
 {
     text-decoration: none;
     color: black;
-    
 }
-.Hebergements
+.hebertexte
 {
-    vertical-align: ;
+    border: white 4px solid;
+    width: 220px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
 }
 .photoheberge
 {
