@@ -167,18 +167,65 @@ h2
 }
 /*Fin mise en page Filtres*/
 
+/*Bloc populaires'*/
+.groupepop
+{
+    list-style-type: none;
+    float: right;
+    background-color: #f2f2f2;
+    border-radius: 10px 10px 10px 10px;
+}
+.photo
+{
+    width: 184px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+    vertical-align: middle;
+    
+}
+.texte
+{
+    display: inline-block;
+    position: relative;
+    border: white 2px solid;
+    background-color: white;
+}
+
+span
+{
+    font-weight: bold;
+}
+
+/*Fin bloc populaires*/
+
 /*Bloc hébergements*/
 .Hebergements a
 {
     text-decoration: none;
     color: black;
+    
 }
+.Hebergements
+{
+    vertical-align: ;
+}
+.photoheberge
+{
+    width: 220px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+/*Fin bloc hébergements*/
+
 /*Bloc activité*/
 .activites a
 {
     text-decoration: none;
     color: black;
 }
+
 /*Bloc Footer*/
 ul
 {
