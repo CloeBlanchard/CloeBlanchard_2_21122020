@@ -170,42 +170,49 @@ h2
 /*Fin mise en page Filtres*/
 
 /*Bloc populaires'*/
-.groupepop
+.populaires
 {
     list-style-type: none;
+    border: solid 1px #f2f2f2;
     float: right;
-    background-color: #f2f2f2;
     border-radius: 20px;
-    
-    
-}
-.poputexte
-{
-    border: solid 4px white ;
-    height: 180px;
-    border-radius: 10px 10px 10px 10px;
-    background-color: white;
+    background-color: #f2f2f2;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
 }
 .photo
 {
-    width: 184px;
-    height: 180px;
+    width: 100px;
+    height: 106px;
     object-fit: cover;
-    border-radius: 10px 0px 0px 10px;
-    vertical-align: middle;   
+    border-radius: 20px 0px 0px 20px;
+    vertical-align: middle; 
+    border: solid 1px white;
 }
 .texte
 {
     display: inline-block;
-    position: relative;
-    
-}
+    position: absolute;
+    border: solid 1px white;
+    width: 134px;
+    border-radius: 0px 20px 20px 0px;
 
-span
+}
+.popubloc
 {
-    font-weight: bold;
+    border: solid 5px white;
+    height: 106px;
+    border-radius: 20px;
+    background-color: white;
+    width: 240px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+    word-break: break-all;
+    margin: 10px;
 }
-
 /*Fin bloc populaires*/
 
 /*Bloc hébergements*/
