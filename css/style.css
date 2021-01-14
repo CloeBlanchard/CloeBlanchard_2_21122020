@@ -191,7 +191,7 @@ h2
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
     vertical-align: middle; 
-    border: solid 1px red;
+    border: solid 1px white;
 }
 .texte
 {
@@ -214,16 +214,17 @@ h2
     margin: 10px;
 }
 /*Fin bloc populaires*/
-
 /*Bloc hébergements*/
-.Hebergements
+.hebergements
 {
     list-style-type: none;
-    width: 700px;
+    width: 750px;
+    height: 600px;
     background-color: #f2f2f2;
     border-radius: 20px;
+    margin-left: 50px;
 }
-.Hebergements a
+.hebergements a
 {
     text-decoration: none;
     color: black;
@@ -243,6 +244,18 @@ h2
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
 }
+.box
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.box2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
 /*Fin bloc hébergements*/
 
 /*Bloc activité*/
@@ -251,6 +264,11 @@ h2
     text-decoration: none;
     color: black;
 }
+.photo-2
+{
+    
+}
+/*Fin bloc activite*/
 
 /*Bloc Footer*/
 ul
