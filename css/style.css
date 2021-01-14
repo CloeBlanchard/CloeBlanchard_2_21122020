@@ -191,7 +191,7 @@ h2
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
     vertical-align: middle; 
-    border: solid 1px white;
+    border: solid 1px red;
 }
 .texte
 {
