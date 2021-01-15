@@ -214,15 +214,16 @@ h2
     margin: 10px;
 }
 /*Fin bloc populaires*/
+
 /*Bloc hébergements*/
 .hebergements
 {
     list-style-type: none;
     width: 750px;
-    height: 600px;
+    height: 500px;
     background-color: #f2f2f2;
     border-radius: 20px;
-    margin-left: 50px;
+
 }
 .hebergements a
 {
@@ -248,14 +249,9 @@ h2
 {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: flex-end;
 }
-.box2
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-}
+
 /*Fin bloc hébergements*/
 
 /*Bloc activité*/
@@ -266,6 +262,45 @@ h2
 }
 .photo-2
 {
+    width: 250px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px ;
+    margin: 0.5px;
+}
+.box-2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: inline-end;
+}
+.photo-3
+{
+    width: 250px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.photo-4
+{
+    width: 250px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+}
+.photo-5
+{
+    width: 250px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.groupeactive
+{
+    display: flex;
+    justify-content: space-between;
     
 }
 /*Fin bloc activite*/
@@ -292,3 +327,4 @@ footer
 {
    flex: 1 1 auto;
 }
+/*Fin bloc footer*/
