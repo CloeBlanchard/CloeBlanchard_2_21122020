@@ -267,16 +267,14 @@ h2
 }
 .photo-2
 {
-    width: 250px;
+    width: 100%;
     height: 370px;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px ;
-    margin-left: 10px;
-
 }
 .photo-3
 {
-    width: 250px;
+    width: 100%;
     height: 160px;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
@@ -330,16 +328,11 @@ h2
 }
 .contour-4
 {
-    border: solid 1px white;
-    height: 410px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 3px 3px 3px  rgba(0,0,0,0.1);
-    margin-left: 10px;
-    display: flex;
-    justify-content: space-around;
     margin-bottom: 70px;
     font-weight: bold;
-    
+    width: 20%;
 }
 .box-3
 {
