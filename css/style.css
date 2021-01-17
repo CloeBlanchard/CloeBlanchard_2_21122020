@@ -168,7 +168,11 @@ h2
     padding: 7px;
 }
 /*Fin mise en page Filtres*/
-
+body
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 /*Bloc populaires'*/
 .populaires
 {
@@ -219,7 +223,7 @@ h2
 .hebergements
 {
     list-style-type: none;
-    width: 750px;
+    width: 70%;
     height: 500px;
     background-color: #f2f2f2;
     border-radius: 20px;
@@ -230,13 +234,30 @@ h2
     text-decoration: none;
     color: black;
 }
-.hebertexte
+.bold
 {
-    border: white 4px solid;
+    font-weight: bold;
+}
+.textheb
+{
+    margin-left: 5%;
+}
+.hotel
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-block-start: 5px;
+}
+.heberbloc
+{
     width: 220px;
     border-radius: 10px;
     background-color: white;
     box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .photoheberge
 {
@@ -245,13 +266,19 @@ h2
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
 }
-.box
+.imgheb
 {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    border: solid 1px white;
+    border-radius: 10px 10px 0px 0px;
 }
-
+.color
+{
+    color: #0065FC;
+}
+.color-2
+{
+    color: #F2F2F2;
+}
 /*Fin bloc hébergements*/
 
 /*Bloc activité*/
@@ -260,6 +287,7 @@ h2
     text-decoration: none;
     color: black;
 }
+
 .groupeactive
 {
     display: flex;
@@ -281,22 +309,20 @@ h2
 }
 .photo-4
 {
-    width: 250px;
+    width: 100%;
     height: 80px;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
-
 }
 .photo-5
 {
-    width: 250px;
+    width: 100%;
     height: 130px;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
 }
 .contour
 {
-    border: solid 0px white;
     height: 200px;
     width: 250px;
     border-radius: 10px;
@@ -307,24 +333,23 @@ h2
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 70px;
     font-weight: bold;
+    margin-left: 30px;
 }
 .contour-2
 {
-    border: solid 0px white;
-    height: 120px;
     width: 250px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 3px 3px 3px  rgba(0,0,0,0.1);
 }
 .contour-3
 {
-    border: solid 0px white;
-    height: 170px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 3px 3px 3px  rgba(0,0,0,0.1);
+    width: 50%;
+    object-fit: cover;
 }
 .contour-4
 {
@@ -332,16 +357,18 @@ h2
     box-shadow: 3px 3px 3px  rgba(0,0,0,0.1);
     margin-bottom: 70px;
     font-weight: bold;
-    width: 20%;
+    width: 25%;
+    padding-left: 30px;
 }
 .box-3
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 30px;
     margin-bottom: 70px;
-    margin-right: 10px;
     font-weight: bold;
+
 }
 /*Bloc Footer*/
 ul
