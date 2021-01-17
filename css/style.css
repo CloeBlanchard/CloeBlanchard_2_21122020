@@ -260,20 +260,19 @@ h2
     text-decoration: none;
     color: black;
 }
+.groupeactive
+{
+    display: flex;
+    justify-content: space-between;
+}
 .photo-2
 {
     width: 250px;
     height: 370px;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px ;
-    margin: 0.5px;
-}
-.box-2
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    float: inline-end;
+    margin-left: 10px;
+
 }
 .photo-3
 {
@@ -285,10 +284,10 @@ h2
 .photo-4
 {
     width: 250px;
-    height: 110px;
+    height: 80px;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
-    display: flex;
+
 }
 .photo-5
 {
@@ -297,14 +296,60 @@ h2
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
 }
-.groupeactive
+.contour
 {
-    display: flex;
-    justify-content: space-between;
+    border: solid 0px white;
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
     
 }
-/*Fin bloc activite*/
-
+.box-2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+.contour-2
+{
+    border: solid 0px white;
+    height: 120px;
+    width: 250px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 3px  rgba(0,0,0,0.1);
+}
+.contour-3
+{
+    border: solid 0px white;
+    height: 170px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 3px  rgba(0,0,0,0.1);
+}
+.contour-4
+{
+    border: solid 1px white;
+    height: 410px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 3px  rgba(0,0,0,0.1);
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    font-weight: bold;
+    
+}
+.box-3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    margin-right: 10px;
+    font-weight: bold;
+}
 /*Bloc Footer*/
 ul
 {
@@ -314,6 +359,7 @@ footer
 {
     display: flex;
     background-color: #f2f2f2;
+    width: max-content 100%;
 }
 .propos
 {
