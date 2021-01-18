@@ -3,6 +3,7 @@
 {
     width: 4%;
     position: absolute;
+    padding-top: 50px;
 
 }
 /* Position du menu*/
@@ -15,22 +16,31 @@ header a
 /*Bouton menu*/
 .menu
 {
+    padding-top: 50px;
     text-align: right;
-    font-size: 13px;
+    font-size: 15px;
 }
 #activite a
 {
     color: black;
+    padding-left: 50px;
 }
 .inscription
 {
     color: #0065FC;
     font-weight: bold;
+    padding-left: 50px;
 }
 h2
 {
     text-justify: auto;
     font-size: 15px;
+}
+/*div + margin top + border top color*/
+.barre
+{
+    
+    border-top: 2px solid #0065FC;
 }
 .vacances
 {
@@ -42,10 +52,11 @@ h2
 {
     font-weight: bolder;
     background-color: #f2f2f2;
-    border: 5.5px solid #f2f2f2;
-    border-radius: 5px 0px 0px 5px;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px 0px 0px 10px;
     float: left;
-    font-size: 8.5px;
+    font-size: 14px;
+    padding: 8px;
 }
 .recherche a
 {
@@ -54,18 +65,25 @@ h2
     background-color: #0065fc;
     color: white;
     border: 2px solid #0065fc;
-    border-radius: 0px 5px 5px 0px;
-    font-size: 14px;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 13px;
+    padding: 8px;
 }
 .marseille
 {
     border-radius: 0px 0px 0px 0px;
     border: solid 1px #F2F2F2;
     font-weight: bold;
+    padding: 8px;
 }
 /*Fin du bloc recherche*/
 
 /* Mise ne page des Filtres*/
+.boutons
+{
+    display: flex;
+    align-items: center;
+}
 .fa-money-bill-wave
 {
     background: #DEEBFF;
@@ -77,7 +95,7 @@ h2
     color: #0065FC;
     line-height: 9px;
     vertical-align: middle;
-    padding: 9px
+    padding: 12px
 }
 .fa-child
 {
@@ -90,7 +108,7 @@ h2
     color: #0065FC;
     line-height: 9px;
     vertical-align: middle;
-    padding: 9px
+    padding: 12px;
 }
 .fa-heart
 {
@@ -103,7 +121,7 @@ h2
     color: #0065FC;
     line-height: 9px;
     vertical-align: middle;
-    padding: 9px
+    padding: 12px;
 }
 .fa-dog
 {
@@ -116,7 +134,7 @@ h2
     color: #0065FC;
     line-height: 9px;
     vertical-align: middle;
-    padding: 9px
+    padding: 12px;
 }
 .economie
 {
@@ -126,6 +144,8 @@ h2
     font-weight: bold;
     border-left: none;
     font-size: 12px;
+    margin: 10px;
+    padding-right: 15px;
 }
 .famille
 {
@@ -135,6 +155,8 @@ h2
     font-weight: bold;
     border-left: none;
     font-size: 12px;
+    margin: 10px;
+    padding-right: 15px;
 }
 .romantique
 {
@@ -144,6 +166,8 @@ h2
     font-weight: bold;
     border-left: none;
     font-size: 12px;
+    margin: 10px;
+    padding-right: 15px;
 }
 .animaux
 {
@@ -153,6 +177,8 @@ h2
     font-weight: bold;
     border-left: none;
     font-size: 12px;
+    margin: 10px;
+    padding-right: 15px;
 }
 .fa-info
 {
@@ -219,7 +245,9 @@ body
 }
 /*Fin bloc populaires*/
 
-/*Bloc hébergements*/
+/*Bloc hébergements*/ /* figure
+display flex
+flex wrap wrap*/
 .hebergements
 {
     list-style-type: none;
@@ -379,7 +407,7 @@ footer
 {
     display: flex;
     background-color: #f2f2f2;
-    width: max-content 100%;
+    width: 100%;
 }
 .propos
 {
