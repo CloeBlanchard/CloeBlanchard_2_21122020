@@ -10,16 +10,14 @@
 	<title>Reservia</title>	   
 </head>
 
-<body>
+body>
     <header> <!-- Partie Header -->
         <img src="images_reservia/logo/Reservia.svg" id="logo" alt="logo Reservia" />
-        <nav class="menu">
-
-            <!-- Ancres "hébergements" et "activité" -->
-            <a href="#Hébergements">Hébergements</a> <!-- div + margin top + border top color-->
-            <span id="activite"><a href="#Activités">Activités</a></span>
-            <span class="inscription"><a href="S'inscrire">S'inscrire</a></span>
-        </nav>
+            <nav class="menu"> <!-- Ancres "hébergements" et "activité" -->
+                <span class="barre"><a href="#Hébergements">Hébergements</a></span> 
+                <span id="activite"><a href="#Activités">Activités</a></span>
+                <span class="inscription"><a href="S'inscrire">S'inscrire</a></span>
+            </nav>
     </header>
 
     <!--Section de zone de recherche-->
@@ -38,14 +36,16 @@
     <!-- Section filtres -->
 
     <section class="Filtres">
-
-        <p class="filtres">
-            <h3>Filtres</h3>
-            <div class="economie"><i class="fas fa-money-bill-wave"></i> Economique</div>
-            <div class="famille"><i class="fas fa-child"></i> Familial</div>
-            <div class="romantique"><i class="fas fa-heart"></i> Romantique</div>
-            <div class="animaux"><i class="fas fa-dog"></i> Animaux autorisés</div> <br />
-            <i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+        <p>
+            <div class="boutons">
+                <div>Filtres</div>
+                <div class="economie"><i class="fas fa-money-bill-wave"></i> Economique</div>
+                <div class="famille"><i class="fas fa-child"></i> Familial</div>
+                <div class="romantique"><i class="fas fa-heart"></i> Romantique</div>
+                <div class="animaux"><i class="fas fa-dog"></i> Animaux autorisés</div>
+            </div>
+                <div><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</div>
+        </p>
     </section>
     <!--Fin de section filtres-->
 
@@ -62,28 +62,28 @@
             <div class="popubloc">
                 <img src="images_reservia/hebergements/4_small/Hotel_le_soleil_du_matin.jpg" alt="Hôtel au soleil" class="photo">
                     <aside class="texte">
-                        <strong>Hôtel Le soleil du matin</strong> <br />
-                        Nuit à partir de 128<span>€</span> <br />
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <span class="bold">Hôtel Le soleil du matin</span> <br />
+                        Nuit à partir de 128<span class="bold">€</span> <br />
+                        <div class="bold"><span class="color"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></div>
                     </aside>
             </div>
 
             <div class="popubloc">
                 <img src="images_reservia/hebergements/4_small/Au_coeur_de_leau_chambres_dhotes.jpg" alt="Au coeur de l'eau chambres d'hôtes" class="photo">
                     <aside class="texte">
-                        <strong>Au coeur de l'eau
-                        Chambres d'hôtes</strong> <br />
-                        Nuit à partir de 71<span>€</span> <br />
-                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <span class="bold">Au coeur de l'eau
+                        Chambres d'hôtes</span> <br />
+                        Nuit à partir de 71<span class="bold">€</span> <br />
+                        <div class="etoile"><span class="color"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="color-2"><i class="fas fa-star"></i></span></div>
                     </aside>
             </div>
 
             <div class="popubloc">
                 <img src="images_reservia/hebergements/4_small/hotel_tout_bleu_tout_blanc.jpg" alt="Hôtel tout bleu tout blanc" class="photo">
                 <aside class="texte">
-                    <strong>Hôtel Tout bleu et Blanc</strong><br />
-                    Nuit à partir de 68<span>€</span> <br />
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    <span class="bold">Hôtel Tout bleu et Blanc</span><br />
+                    Nuit à partir de 68<span class="bold">€</span> <br />
+                    <div class="etoile"><span class="color"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="color-2"><i class="fas fa-star"></i></span></div>
                 </aside>
             </div> 
             </p>
@@ -174,7 +174,7 @@
             </div>
             </figure>
 
-        <h3>Afficher plus</h3>
+        <h5>Afficher plus</h5>
             </p>
         </div>
     </section>
@@ -242,46 +242,36 @@
         <div class="propos">
             <!--Le 'A propos'-->
             <p>
-
-            <ul>
-                <li>
+                <ul>
                     <h2>A propos</h2>
-                </li>
-                <li>Fonctionnement du site</li>
-                <li>Conditions générales de vente</li>
-                <li>Données et confidentialité</li>
-            </ul>
+                    <li>Fonctionnement du site</li>
+                    <li>Conditions générales de vente</li>
+                    <li>Données et confidentialité</li>
+                </ul>
             </p>
         </div>
 
         <div class="charte">
             <!--Le 'Nos hébergemnts'-->
             <p>
-
-            <ul>
-                <li>
-                    <h2>Nos hébergements</h2>
-                </li>
-                <li>Charte qualité</li>
-                <li>Soumettre votre hôtel</li>
-            </ul>
+                <ul>
+                    <li><h2>Nos hébergements</h2></li>
+                    <li>Charte qualité</li>
+                    <li>Soumettre votre hôtel</li>
+                </ul>
             </p>
         </div>
 
         <div class="assistance">
             <p>
-
-            <ul>
-                <li>
-                    <h2>Assistance</h2>
-                </li>
-                <li>Centre d'aide</li>
-                <li>Nous contacter</li>
-            </ul>
+                <ul>
+                    <li><h2>Assistance</h2></li>
+                    <li>Centre d'aide</li>
+                    <li>Nous contacter</li>
+                </ul>
             </p>
         </div>
     </footer>
 
 </body>
-
 </html>
