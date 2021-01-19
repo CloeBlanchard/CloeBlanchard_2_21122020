@@ -11,36 +11,35 @@ header a/* Position du menu*/
 }
 .menu /*Bouton menu*/
 {
-    text-align: right;
     font-size: 15px;
-    padding-top: 20px;
+    padding-top: 30px;   
 }
 #activite a
 {
     color: black;
-    border-top: 2px solid #0065FC;
-    padding-top: 26px;
-    padding-left: 50px;
 }
 .inscription
 {
     color: #0065FC;
     font-weight: bold;
-    padding-left: 50px;
-    margin-right: 50px;
+    padding-left: 20px;
 }
+
+.navigation
+{
+    margin-top: 25px;
+}
+.barre
+{
+    border-top: 2px solid #0065FC;
+}
+/*Fin du header*/
+/*Mise en page section zone de recherche*/
 h2
 {
     text-justify: auto;
     font-size: 15px;
 }
-.barre
-{
-    border-top: 2px solid #0065FC;
-    padding-top: 26px;
-}
-/*Fin du header*/
-/*Mise en page section zone de recherche*/
 .vacances
 {
     font-size: 13px;
