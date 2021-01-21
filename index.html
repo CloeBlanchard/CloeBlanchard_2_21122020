@@ -12,11 +12,12 @@
 </head>
 
 <body>
+
     <header> <!-- Partie Header -->
         <img src="images_reservia/logo/Reservia.svg" id="logo" alt="logo Reservia" />
-        <nav class="menu"> <!-- Ancres "hébergements" et "activité" -->
+        <nav > <!-- Ancres "hébergements" et "activité" -->
             <ul class="navigation">
-                <li class="barre"><a href="#ancre">Hébergements</a></li>
+                <li id="barre"><a href="#ancre">Hébergements</a></li>
                 <li id="activite"><a href="#marseille">Activités</a></li>
                 <li class="inscription"><a href="S'inscrire">S'inscrire</a></li>
             </ul>
@@ -232,12 +233,11 @@
         <!--Pied de page-->
         <div class="propos">
             <!--Le 'A propos'-->
-            <p>
                 <ul>
                     <h2>A propos</h2>
-                    <li>Fonctionnement du site</li>
-                    <li>Conditions générales de vente</li>
-                    <li>Données et confidentialité</li>
+                    <a href="fonction"><li>Fonctionnement du site</li></a>
+                    <a href="conditions"><li>Conditions générales de vente</li></a>
+                    <a href="confidentialité"><li>Données et confidentialité</li></a>
                 </ul>
             </p>
         </div>
@@ -247,8 +247,8 @@
             <p>
                 <ul>
                     <li><h2>Nos hébergements</h2></li>
-                    <li>Charte qualité</li>
-                    <li>Soumettre votre hôtel</li>
+                    <a href="charte"><li>Charte qualité</li></a>
+                    <a href="soumettre"><li>Soumettre votre hôtel</li></a>
                 </ul>
             </p>
         </div>
@@ -257,10 +257,9 @@
             <p>
                 <ul>
                     <li><h2>Assistance</h2></li>
-                    <li>Centre d'aide</li>
-                    <li>Nous contacter</li>
+                    <li><a href="aide">Centre d'aide</a></li>
+                    <a href="contacte"><li>Nous contacter</li></a>
                 </ul>
-            </p>
         </div>
     </footer>
 
