@@ -25,7 +25,7 @@ header a/* Position du menu*/
     margin-top: -16px;
     padding-top: 16px;
 }
-#activite:active
+#activite:hover
 {
     border-top: 2px solid #0065FC;
 }
@@ -47,11 +47,11 @@ header a/* Position du menu*/
 }
 #barre
 {
-    border-top: 2px solid #0065FC;
+    border-top: 2px solid #f2f2f2;
     margin-top: -16px;
     padding-top: 16px;
 }
-#barre:active
+#barre:hover
 {
     border-top: 2px solid #0065FC;
 }
@@ -456,6 +456,9 @@ h5
     justify-content: space-between;
     margin-bottom: 70px;
     font-weight: bold;
+    width: 20%;
+    object-fit: cover;
+
 }
 .contour-2
 {
@@ -476,8 +479,7 @@ h5
     box-shadow: 3px 3px 3px  rgba(0,0,0,0.1), -.1em 0 .2em rgba(0,0,0,0.1);
     margin-bottom: 70px;
     font-weight: bold;
-    width: 40%;
-    margin-right: 20px;
+    width: 20%;
     margin-left: 20px;
 }
 .box-3
@@ -488,6 +490,7 @@ h5
     margin-bottom: 70px;
     font-weight: bold;
     margin-right: 30px;
+    width: 20%;
 }
 /*Bloc Footer*/
 ul
