@@ -2,7 +2,7 @@
 #logo /*Mise en page logo*/
 {
     margin-left: 34px;
-    position: absolute;
+    margin-top: 16px;
 }
 header a/* Position du menu*/
 {
@@ -22,10 +22,10 @@ header a/* Position du menu*/
 #activite
 {
     border-top: 2px solid #f2f2f2;
-    margin-top: -16px;
-    padding-top: 16px;
+    margin-top: -99px;
+    padding-top: 26px;
 }
-#activite:hover
+#activite:hover /*survole d'acitivité*/
 {
     border-top: 2px solid #0065FC;
 }
@@ -34,11 +34,14 @@ header a/* Position du menu*/
     color: #0065FC;
     font-weight: bold;
     margin-left: 40px;
+    margin-top: -70px;
 }
-.navigation
+.navigation /*position du nav*/
 {
     display: flex;
-    margin-left: 880px;
+    padding-top: 10px;
+    float: right;
+    margin-right: 30px;
 }
 #barre a
 {
@@ -48,14 +51,15 @@ header a/* Position du menu*/
 #barre
 {
     border-top: 2px solid #f2f2f2;
-    margin-top: -16px;
-    padding-top: 16px;
+    margin-top: -99px;
+    padding-top: 26px;
 }
-#barre:hover
+#barre:hover /*survole d'hébergement*/
 {
     border-top: 2px solid #0065FC;
 }
 /*Fin du header*/
+
 /*Mise en page section zone de recherche*/
 h2
 {
@@ -122,10 +126,12 @@ h5
 }
 /*Fin corps de la page*/
 
-/* Mise ne page des Filtres*/
-.Filtres
+/* Mise en page des Filtres*/
+.filtres
 {
     margin-left: 2%;
+    font-size: 10px;
+    margin-bottom: 80px;
 }
 .boutons
 {
@@ -266,6 +272,10 @@ h5
     vertical-align: middle;
     padding: 7px;
 }
+.logement
+{
+    font-size: 13px;
+}
 /*Fin mise en page Filtres*/
 
 /*Bloc populaires'*/
@@ -391,6 +401,10 @@ h5
     font-size: 15px;
     margin-top: 40px;
 }
+.bloc
+{
+    margin-bottom: 80px;
+}
 /*Fin bloc hébergements*/
 
 /*Bloc activité*/
@@ -407,7 +421,10 @@ h5
     text-decoration: none;
     color: black;
 }
-
+.activites
+{
+    margin-bottom: 50px;
+}
 .groupeactive
 {
     display: flex;
@@ -458,7 +475,6 @@ h5
     font-weight: bold;
     width: 20%;
     object-fit: cover;
-
 }
 .contour-2
 {
@@ -489,9 +505,10 @@ h5
     justify-content: space-between;
     margin-bottom: 70px;
     font-weight: bold;
-    margin-right: 30px;
+    margin-right: 20px;
     width: 20%;
 }
+/*Fin du bloc activité*/
 /*Bloc Footer*/
 ul
 {
