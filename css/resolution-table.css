@@ -1,0 +1,36 @@
+@media screen and (max-width: 1024px)
+{
+/* Section zone de recherche */
+h2
+{
+    padding-top: 20px;
+}
+/*Fin du bloc de zone de recherche*/
+
+/*Bloc populaires*/
+.populaires 
+{
+    width: 50%;
+    margin-bottom: 50px;
+}
+.textpopu
+{
+    width: 50%;
+}
+/* Fin bloc populaires*/
+
+/*Bloc hébergements*/
+.hebergements
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 82%;
+    padding-bottom: 250px;
+    margin-left: 80px;
+}
+.heberbloc
+{
+    width: 37%;
+    margin-left: 20px;
+}
+}
