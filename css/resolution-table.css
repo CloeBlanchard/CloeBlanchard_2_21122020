@@ -1,36 +1,61 @@
-@media screen and (max-width: 1024px)
-{
-/* Section zone de recherche */
-h2
-{
-    padding-top: 20px;
-}
-/*Fin du bloc de zone de recherche*/
-
-/*Bloc populaires*/
-.populaires 
-{
-    width: 50%;
-    margin-bottom: 50px;
-}
-.textpopu
-{
-    width: 50%;
-}
-/* Fin bloc populaires*/
-
-/*Bloc hébergements*/
-.hebergements
-{
-    display: flex;
-    flex-wrap: wrap;
-    width: 82%;
-    padding-bottom: 250px;
-    margin-left: 80px;
-}
-.heberbloc
-{
-    width: 37%;
-    margin-left: 20px;
-}
-}
+@media screen and (max-width: 1024px){
+    /* Section de recherche*/
+    h2
+    {
+        padding-top: 20px;
+    }
+    /* Fin section de recherche*/
+    
+    /*bloc populaire*/
+    .populaires
+    {
+        float: left;
+        margin-left: 20%;
+        width: 50%;
+        margin-bottom: 50px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .textpopu
+    {
+        width: 20%;
+    }
+    .titrepopu
+    {
+        width: 90%;
+    }
+    .popubloc
+    {
+        width: 90%;
+        height: 160px;
+    }
+    .photo
+    {
+        height: 140px;
+    }
+    .nuit
+    {
+        margin-bottom: 30px;
+    }
+    /* Fin bloc populaires*/
+    
+    /*Bloc hébergements*/
+    .hebergements
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-bottom: 1950px;
+        background-color: white;
+    }
+    .heberbloc
+    {
+        width: 100%;
+    }
+    .photoheberge
+    {
+        width: 100%;
+        height: 300px;
+    }
+    /*Fin bloc hébergement*/
+    }
