@@ -1,58 +1,60 @@
 /* Position header*/
 #logo /*Mise en page logo*/
 {
-    margin-left: 34px;
-    margin-top: 16px;
+    padding-top: 1%;
+    margin-left: 3%;
 }
-header a/* Position du menu*/
+header
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    color: #0065FC;
+}
+header a
 {
     text-decoration: none;
-    color: #0065fc;
 }
-.menu /*Bouton menu*/
+.navigation 
 {
-    font-size: 15px;  
+    display: flex;
+    margin-top: -2.90%;
 }
-#activite a
+.inscription a
 {
-    color: black;
-    margin-left: 40px;
-    margin-right: 40px;
+    color: #0065FC;
 }
-#activite
+.inscription
 {
-    border-top: 2px solid #f2f2f2;
-    margin-top: -99px;
-    padding-top: 26px;
+    font-weight: bold;
+    margin-left: 10%;
+    padding-top: 15%;
 }
 #activite:hover /*survole d'acitivité*/
 {
     border-top: 2px solid #0065FC;
 }
-.inscription
+#activite
 {
-    color: #0065FC;
-    font-weight: bold;
-    margin-left: 40px;
-    margin-top: -70px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-top: 2px solid #F2F2F2;
+    padding-top: 15%;
 }
-.navigation /*position du nav*/
+#activite a
 {
-    display: flex;
-    padding-top: 10px;
-    float: right;
-    margin-right: 30px;
+    color: black;
 }
 #barre a
 {
-    margin-left: 40px;
-    margin-right: 40px;
+    color: #0065FC;
 }
 #barre
 {
-    border-top: 2px solid #f2f2f2;
-    margin-top: -99px;
-    padding-top: 26px;
+    padding-right: 10%;
+    padding-left: 10%;
+    border-top: 2px solid #F2F2F2;
+    padding-top: 15%;
 }
 #barre:hover /*survole d'hébergement*/
 {
@@ -64,27 +66,25 @@ header a/* Position du menu*/
 h2
 {
     text-justify: auto;
-    font-size: 15px;
+    font-size: 17px;
+    margin-top: 3%;
+    margin-left: 2%;
 }
 .vacances
 {
-    font-size: 13px;
+    font-size: 17px;
     margin-left: 2%;
-}
-h2
-{
-    margin-top: 3%;
-    margin-left: 2%;
+    margin-bottom: 2%;
 }
 .fa-map-marker-alt
 {
     font-weight: bolder;
     background-color: #f2f2f2;
-    border: 2px solid #f2f2f2;
+    border: 1px solid #f2f2f2;
     border-radius: 10px 0px 0px 10px;
     float: left;
-    font-size: 14px;
-    padding: 8px;
+    font-size: 16px;
+    padding: 1%;
     margin-left: 2%;
 }
 .recherche a
@@ -93,17 +93,19 @@ h2
     font-weight: bold;
     background-color: #0065fc;
     color: white;
-    border: 2px solid #0065fc;
+    border: 1px solid #0065fc;
     border-radius: 0px 10px 10px 0px;
-    font-size: 13px;
-    padding: 8px;
+    font-size: 15px;
+    padding: 0.90%;
 }
 .marseille
 {
     border-radius: 0px 0px 0px 0px;
     border: solid 1px #F2F2F2;
+    font-size: 13px;
     font-weight: bold;
-    padding: 8px;
+    padding: 1%;
+    margin-bottom: 2%;
 }
 /*Fin du bloc de zone de recherche*/
 
@@ -113,25 +115,14 @@ body
     max-width: 100%;
     font-family: 'Raleway', sans-serif;
 }
-#ancre
-{
-    padding-top: 2%;
-    padding-left: 5%;
-    font-size: 18px;
-}
-h5
-{
-    margin-left: 5%;
-    margin-bottom: 10px;
-}
 /*Fin corps de la page*/
 
 /* Mise en page des Filtres*/
 .filtres
 {
     margin-left: 2%;
-    font-size: 10px;
-    margin-bottom: 80px;
+    font-size: 15px;
+    margin-bottom: 4%;
 }
 .boutons
 {
@@ -139,121 +130,30 @@ h5
     align-items: center;
     font-weight: bold;
 }
-.fa-money-bill-wave
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
 {
     background: #DEEBFF;
-    width: 9px;
-    height: 9px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     text-align: center;
-    font-size: 8.5px;
+    font-size: 14.5px;
     color: #0065FC;
-    line-height: 9px;
     vertical-align: middle;
-    padding: 12px
+    padding: 15px;
 }
-.economie
+.economie, .famille, .romantique, .animaux
 {
     border-radius: 50px;
     border: 3px solid #F2F2F2;
     display: inline-block;
     font-weight: bold;
     border-left: none;
-    font-size: 12px;
-    margin: 10px;
-    padding-right: 15px;
+    font-size: 14px;
+    margin: 1%;
+    padding-right: 2%;
 }
-.economie:hover
-{
-    color: #0065FC;
-    font-size: large;
-    border: 4px solid #F2F2F2;
-}
-.fa-child
-{
-    background: #DEEBFF;
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 8.5px;
-    color: #0065FC;
-    line-height: 9px;
-    vertical-align: middle;
-    padding: 12px;
-}
-.famille
-{
-    border-radius: 50px;
-    border: 3px solid #F2F2F2;
-    display: inline-block;
-    font-weight: bold;
-    border-left: none;
-    font-size: 12px;
-    margin: 10px;
-    padding-right: 15px;
-}
-.famille:hover
-{
-    color: #0065FC;
-    font-size: large;
-    border: 4px solid #F2F2F2;
-}
-.fa-heart
-{
-    background: #DEEBFF;
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 8.5px;
-    color: #0065FC;
-    line-height: 9px;
-    vertical-align: middle;
-    padding: 12px;
-}
-.romantique
-{
-    border-radius: 50px;
-    border: 3px solid #F2F2F2;
-    display: inline-block;
-    font-weight: bold;
-    border-left: none;
-    font-size: 12px;
-    margin: 10px;
-    padding-right: 15px;
-}
-.romantique:hover
-{
-    color: #0065FC;
-    font-size: large;
-    border: 4px solid #F2F2F2;
-}
-.fa-dog
-{
-    background: #DEEBFF;
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 8.5px;
-    color: #0065FC;
-    line-height: 9px;
-    vertical-align: middle;
-    padding: 12px;
-}
-.animaux
-{
-    border-radius: 50px;
-    border: 3px solid #F2F2F2;
-    display: inline-block;
-    font-weight: bold;
-    border-left: none;
-    font-size: 12px;
-    margin: 10px;
-    padding-right: 15px;
-}
-.animaux:hover
+.economie:hover, .famille:hover, .romantique:hover, .animaux:hover
 {
     color: #0065FC;
     font-size: large;
@@ -262,15 +162,14 @@ h5
 .fa-info
 {
     border-radius: 50%;
-    width: 7px;
-    height: 7px;
+    width: 10px;
+    height: 10px;
     border: solid 2px #f2f2f2;
-    font-size: 8.5px;
+    font-size: 11px;
     color: #0065fc;
     text-align: center;
-    line-height: 7px;
     vertical-align: middle;
-    padding: 7px;
+    padding: 1%;
 }
 .logement
 {
@@ -286,13 +185,13 @@ h5
     border-radius: 20px;
     background-color: #f2f2f2;
     width: 25%;
-    height: 550px;
+    height: 535px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    margin-right: 20px;
-    margin-bottom: 3px;
+    margin-right: 1%;
+    margin-bottom: 2%;
 }
 .populaires a
 {
@@ -311,9 +210,9 @@ h5
     display: inline-block;
     position: absolute;
     width: 11%;
-    height: 200px;
+    height: 106px;
     border-radius: 0px 20px 20px 0px;
-    margin-left: 5px;
+    margin-left: 0.50%;
 }
 .popubloc
 {
@@ -323,19 +222,24 @@ h5
     background-color: white;
     width: 80%;
     box-shadow: 3px 3px 3px rgba(0,0,0,0.1), -.2em 0 .2em rgba(0,0,0,0.1);
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-top: 10px;
     margin-bottom: 30px;
 }
 .nuit
 {
-    margin-top: 10px;
+    margin-top: 6%;
+}
+.etoile
+{
+    position: absolute;
+    bottom: 0px;
 }
 .texticon
 {
-    float: left;
-    margin-right: 150px;
+    margin-right: 153px;
+    font-size: 17px;
 }
 .fa-chart-line
 {
@@ -348,16 +252,22 @@ h5
 {
     list-style-type: none;
     width: 70%;
-    height: 550px;
     background-color: #f2f2f2;
     border-radius: 20px;
-    margin-left: 20px;
-    margin-top: 3px;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding-bottom: 1%;
 }
 .hebergements a
 {
     text-decoration: none;
     color: black;
+}
+#ancre
+{
+    padding-top: 2%;
+    padding-left: 2%;
+    font-size: 17px;
 }
 .bold
 {
@@ -379,9 +289,9 @@ h5
     border-radius: 20px;
     background-color: white;
     box-shadow: 3px 3px 3px rgba(0,0,0,0.1), -.2em 0 .2em rgba(0,0,0,0.1);
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 0.50%;
     margin-bottom: 10px;
 }
 .photoheberge
@@ -402,12 +312,11 @@ h5
 .afficher
 {
     font-weight: bold;
-    font-size: 15px;
-    margin-top: 40px;
+    margin-left: 5%;
 }
 .bloc
 {
-    margin-bottom: 80px;
+    margin-bottom: 5%;
 }
 /*Fin bloc hébergements*/
 
@@ -418,7 +327,8 @@ h5
 }
 #marseille
 {
-    margin-left: 20px;
+    margin-left: 2%;
+    font-size: 17px;
 }
 .activites a
 {
@@ -427,7 +337,7 @@ h5
 }
 .activites
 {
-    margin-bottom: 50px;
+    margin-bottom: 3%;
 }
 .groupeactive
 {
@@ -464,18 +374,18 @@ h5
 }
 .contour
 {
-    height: 200px;
     width: 100%;
+    height: 200px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgba(0,0,0,0.1), -.1em 0 .2em rgba(0,0,0,0.1);
-    padding-bottom: 10px;
+    padding-bottom: 1%;
 }
 .box-2
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 70px;
+    margin-bottom: 4%;
     font-weight: bold;
     width: 20%;
 }
@@ -499,19 +409,20 @@ h5
     margin-bottom: 70px;
     font-weight: bold;
     width: 20%;
-    margin-left: 20px;
+    margin-left: 2%;
 }
 .box-3
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 70px;
     font-weight: bold;
-    margin-right: 20px;
     width: 20%;
+    margin-bottom: 4%;
+    margin-right: 20px;
 }
 /*Fin du bloc activité*/
+
 /*Bloc Footer*/
 ul
 {
