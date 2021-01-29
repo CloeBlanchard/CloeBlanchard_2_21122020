@@ -78,7 +78,6 @@ h2
 }
 .fa-map-marker-alt
 {
-    font-weight: bolder;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 10px 0px 0px 10px;
@@ -251,12 +250,13 @@ body
 .hebergements
 {
     list-style-type: none;
+    height: 600px;
     width: 70%;
     background-color: #f2f2f2;
     border-radius: 20px;
     margin-left: 2%;
     margin-top: 2%;
-    padding-bottom: 1%;
+
 }
 .hebergements a
 {
@@ -434,29 +434,11 @@ footer
     background-color: #f2f2f2;
     width: 100%;
 }
-.propos
+.propos, .charte, .assistance
 {
     flex: 1 1 auto;
 }
-.propos a
-{
-    text-decoration: none;
-    color: black;
-}
-.charte
-{
-    flex: 1 1 auto;
-}
-.charte a
-{
-    text-decoration: none;
-    color: black;
-}
-.assistance
-{
-   flex: 1 1 auto;
-}
-.assistance a
+.propos a, .charte a, .assistance a
 {
     text-decoration: none;
     color: black;

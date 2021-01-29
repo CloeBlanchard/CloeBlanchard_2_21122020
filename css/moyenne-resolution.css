@@ -1,4 +1,9 @@
 @media screen and (max-width: 1440px){
+    /* Menu */
+    header
+    {
+        width: 88%;
+    }
     /* Filtres */
     .filtres
     {
@@ -64,68 +69,81 @@
     /*Fin bloc populaires*/
 }
 
+@media screen and (max-width: 1152px){
+    /* Menu */
+    header
+    {
+        width: 87%;
+    }
+}
+
 @media screen and (max-width: 1444px){
-    /* Filtres */
-    .filtres
+    /* Menu */
+    header
     {
-        font-size: 12px;
+        width: 85%;
     }
-    .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
-    {
-        background: #DEEBFF;
-        width: 13px;
-        height: 13px;
-        font-size: 12.5px;
-        padding: 13px;
-    }
-    .economie, .famille, .romantique, .animaux
-    {
-        font-size: 13px;
-    }
-    .economie:hover, .famille:hover, .romantique:hover, .animaux:hover
-    {
-        font-size: medium;
-    }
-    /* Fin Filtres*/
-
-    /*Bloc hébergements*/
-    .hebergements
-    {
-        margin-left: 2%;
-        width: 55%;
-    }
-    .heberbloc
-    {
-        width: 40%;
-        height: 173px;
-        margin-left: 4%;
-    }
-    .photoheberge
-    {
-        height: 110px;
-    }
-    /*Fin bloc hébergements*/
-
-    /*bloc populaire*/
-    .populaires
-    {
-        width: 40%;
-        margin-right: 2%;
-        height: 691px;
-    }
-    .photo
-    {
-        height: 120px;
-    }
-    .popubloc
-    {
-        width: 90%;
-        height: 120px;
-    }
-    .textpopu
-    {
-        width: 20%;
-        height: 120px;
-    }
-    /*Fin bloc populaires*/
+        /* Filtres */
+        .filtres
+        {
+            font-size: 12px;
+        }
+        .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+        {
+            background: #DEEBFF;
+            width: 13px;
+            height: 13px;
+            font-size: 12.5px;
+            padding: 13px;
+        }
+        .economie, .famille, .romantique, .animaux
+        {
+            font-size: 13px;
+        }
+        .economie:hover, .famille:hover, .romantique:hover, .animaux:hover
+        {
+            font-size: medium;
+        }
+        /* Fin Filtres*/
+    
+        /*Bloc hébergements*/
+        .hebergements
+        {
+            margin-left: 2%;
+            width: 55%;
+        }
+        .heberbloc
+        {
+            width: 40%;
+            height: 173px;
+            margin-left: 4%;
+        }
+        .photoheberge
+        {
+            height: 110px;
+        }
+        /*Fin bloc hébergements*/
+    
+        /*bloc populaire*/
+        .populaires
+        {
+            width: 40%;
+            margin-right: 2%;
+            height: 691px;
+        }
+        .photo
+        {
+            height: 120px;
+        }
+        .popubloc
+        {
+            width: 90%;
+            height: 120px;
+        }
+        .textpopu
+        {
+            width: 20%;
+            height: 120px;
+        }
+        /*Fin bloc populaires*/
 }
