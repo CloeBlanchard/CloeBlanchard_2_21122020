@@ -1,8 +1,14 @@
-@media screen and (max-width: 1440px){
-    /* Menu */
+/*@media screen and (max-width: 1407px){
     header
     {
-        width: 88%;
+        margin-right: 12%;
+    }
+}*/
+
+@media screen and (max-width: 1440px){
+    header
+    {
+        width: 87%;
     }
     /* Filtres */
     .filtres
@@ -32,6 +38,7 @@
     {
         margin-left: 2%;
         width: 55%;
+        height: 691px;
     }
     .heberbloc
     {
@@ -52,6 +59,149 @@
         margin-right: 2%;
         height: 691px;
     }
+    /*Fin bloc populaires*/
+}
+
+@media screen and (max-width: 1386px){
+    .textpopu
+    {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1340px){
+    .box-2, .box-3
+    {
+        height: 425px;
+    }
+}
+
+@media screen and (max-width: 1262px){
+    .groupeactive
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contour-4
+    {
+        margin-left: 20%;
+        width: 50%;
+    }
+    .contour,
+    {
+        margin-bottom: 10%;
+        height: 395px;
+    }
+    .photo-3,
+    {
+       height: 370px;
+    }
+    .box-2
+    {
+        margin-left: 20%;
+        width: 50%;
+        margin-bottom: 20%;
+    }
+}
+/*@media screen and (max-width: 1393px){
+    /*Activtié
+    .groupeactive
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .photo-2
+    {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+    .photo-3
+    {
+
+    }
+    .photo-4
+    {
+
+    }
+    .photo-5
+    {
+
+    }
+    .contour
+    {
+        margin-right: 30%;
+    }
+    /*.contour-2
+    {
+        margin-right: 40%;
+    }
+    .contour-3
+    {
+
+    }
+    .contour-4
+    {
+        width: 100%;
+        margin: 0%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .box-2, .box-3
+    {
+        width: 100%;
+        margin: 0%;
+    }
+}/*
+/*@media screen and (max-width: 1444px){
+    Filtres 
+    .filtres
+    {
+        font-size: 12px;
+    }
+    .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+    {
+        background: #DEEBFF;
+        width: 13px;
+        height: 13px;
+        font-size: 12.5px;
+        padding: 13px;
+    }
+    .economie, .famille, .romantique, .animaux
+    {
+        font-size: 13px;
+    }
+    .economie:hover, .famille:hover, .romantique:hover, .animaux:hover
+    {
+        font-size: medium;
+    }
+    Fin Filtres
+    
+    Bloc hébergements
+    .hebergements
+    {
+        margin-left: 2%;
+        width: 55%;
+    }
+    .heberbloc
+    {
+        width: 40%;
+        height: 173px;
+        margin-left: 4%;
+    }
+    .photoheberge
+    {
+        height: 110px;
+    }
+    Fin bloc hébergements
+
+    bloc populaire
+    .populaires
+    {
+        width: 40%;
+        margin-right: 2%;
+        height: 691px;
+    }
     .photo
     {
         height: 120px;
@@ -66,84 +216,12 @@
         width: 20%;
         height: 120px;
     }
-    /*Fin bloc populaires*/
-}
+    Fin bloc populaires
+}*/
 
-@media screen and (max-width: 1152px){
-    /* Menu */
+/*@media screen and (max-width: 1477px){
     header
     {
-        width: 87%;
+        width: 88%;
     }
-}
-
-@media screen and (max-width: 1444px){
-    /* Menu */
-    header
-    {
-        width: 85%;
-    }
-        /* Filtres */
-        .filtres
-        {
-            font-size: 12px;
-        }
-        .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
-        {
-            background: #DEEBFF;
-            width: 13px;
-            height: 13px;
-            font-size: 12.5px;
-            padding: 13px;
-        }
-        .economie, .famille, .romantique, .animaux
-        {
-            font-size: 13px;
-        }
-        .economie:hover, .famille:hover, .romantique:hover, .animaux:hover
-        {
-            font-size: medium;
-        }
-        /* Fin Filtres*/
-    
-        /*Bloc hébergements*/
-        .hebergements
-        {
-            margin-left: 2%;
-            width: 55%;
-        }
-        .heberbloc
-        {
-            width: 40%;
-            height: 173px;
-            margin-left: 4%;
-        }
-        .photoheberge
-        {
-            height: 110px;
-        }
-        /*Fin bloc hébergements*/
-    
-        /*bloc populaire*/
-        .populaires
-        {
-            width: 40%;
-            margin-right: 2%;
-            height: 691px;
-        }
-        .photo
-        {
-            height: 120px;
-        }
-        .popubloc
-        {
-            width: 90%;
-            height: 120px;
-        }
-        .textpopu
-        {
-            width: 20%;
-            height: 120px;
-        }
-        /*Fin bloc populaires*/
-}
+}*/
