@@ -1,11 +1,13 @@
+/*display none en autre css*/
+/*display bloc en css portable*/
 /*Filtre*/
-.boutons
+/*.boutons
 {
     display: flex;
     flex-wrap: wrap;
 }
 /*Populaires*/
-.populaires
+/*.populaires
 {
     width: 100%;
     margin-right: 0%;
@@ -26,14 +28,14 @@
     width: 100%;
 }
 /*Fin populaires*/
-.bloc
+/*.bloc
 {
     display: flex;
     flex-direction: column;
 }
 /*Hébergements*/
 
-.hebergements
+/*.hebergements
 {
     width: 100%;
     height: 20%;
@@ -51,153 +53,13 @@
 }
 .hotel
 {
-    width: 100%;/*display none en autre css*/
-    /*display bloc en css portable*/
-    /*Filtre*/
-    /*.boutons
-    {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    /*Populaires*/
-    /*.populaires
-    {
-        width: 100%;
-        margin-right: 0%;
-        margin-left: 0%;
-        margin-bottom: 20%;
-    }
-    .popubloc
-    {
-        height: 130px;
-    }
-    .photo
-    {
-        height: 130px;
-    }
-    .textpopu
-    {
-        height: 130px;
-        width: 100%;
-    }
-    /*Fin populaires*/
-    /*.bloc
-    {
-        display: flex;
-        flex-direction: column;
-    }
-    /*Hébergements*/
-    
-    /*.hebergements
-    {
-        width: 100%;
-        height: 20%;
-        margin-left: 0%;
-        background: none;
-        margin-bottom: 20%;
-    }
-    .heberbloc
-    {
-        width: 100%;
-    }
-    .photoheberge
-    {
-        width: 100%;
-    }
-    .hotel
-    {
-        width: 100%;
-        margin: 0%;
-    }
-     /*Fin bloc hébergements*/
-        
-    /*Activité*/
-    /*.groupeactive
-    {
-        display: flex;
-        flex-direction: column;
-    }
-    .photo-2, .photo-3, .photo-4, .photo-5
-    {
-        width: 100%;
-        height: 150px;
-    }
-    .contour-3, .contour-4, .contour, .contour-2
-    {
-        width: 100%;
-        margin: 0%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    .box-2, .box-3
-    {
-        width: 100%;
-        margin: 0%;
-    }
-    
-    /*footer*/
-    /*footer
-    {
-        display: flex;
-        flex-direction: column;
-    }
-    .titrefoot
-    {
-        vertical-align: 0%;
-    }*/
-    
-    /*@media screen and (max-width: 953px){
-        header
-        {
-            width: 85%;
-        }
-        .popubloc
-        {
-            font-size: 15px;
-        }
-        .textheb
-        {
-            width: 100%;
-        }
-    }*/
-    
-    /*@media screen and (max-width: 937px){
-        .textheb
-        {
-            font-size: 15px;
-        }
-        .heberbloc
-        {
-            height: 167px;
-            width: 41%;
-            margin-bottom: 3%;
-        }
-    }*/
-    
-    /*@media screen and  (max-width: 899px){
-        header
-        {
-            width: 80%;
-        }
-        .hebergements
-        {
-            width: 47%;
-        }
-        .heberbloc
-        {
-            width: 100%;
-        }
-        .populaires
-        {
-            width: 47%;
-        }
-    }*/
+    width: 100%;
     margin: 0%;
 }
  /*Fin bloc hébergements*/
     
 /*Activité*/
-.groupeactive
+/*.groupeactive
 {
     display: flex;
     flex-direction: column;
@@ -221,7 +83,7 @@
 }
 
 /*footer*/
-footer
+/*footer
 {
     display: flex;
     flex-direction: column;
@@ -229,4 +91,51 @@ footer
 .titrefoot
 {
     vertical-align: 0%;
-}
+}*/
+
+/*@media screen and (max-width: 953px){
+    header
+    {
+        width: 85%;
+    }
+    .popubloc
+    {
+        font-size: 15px;
+    }
+    .textheb
+    {
+        width: 100%;
+    }
+}*/
+
+/*@media screen and (max-width: 937px){
+    .textheb
+    {
+        font-size: 15px;
+    }
+    .heberbloc
+    {
+        height: 167px;
+        width: 41%;
+        margin-bottom: 3%;
+    }
+}*/
+
+/*@media screen and  (max-width: 899px){
+    header
+    {
+        width: 80%;
+    }
+    .hebergements
+    {
+        width: 47%;
+    }
+    .heberbloc
+    {
+        width: 100%;
+    }
+    .populaires
+    {
+        width: 47%;
+    }
+}*/

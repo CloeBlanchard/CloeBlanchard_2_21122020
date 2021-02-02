@@ -159,6 +159,13 @@
     /*fin activité*/
 }
 
+@media screen and (max-width: 1260px){
+    .textheb
+    {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1173px){
     /*populaires*/
     .textpopu
