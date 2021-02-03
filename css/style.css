@@ -30,7 +30,7 @@ header a
     margin-left: 10%;
     padding-top: 15%;
 }
-#activite:hover /*survole d'acitivité*/
+ /*survole d'acitivité*/
 {
     border-top: 2px solid #0065FC;
 }
@@ -56,7 +56,7 @@ header a
     border-top: 2px solid #F2F2F2;
     padding-top: 15%;
 }
-#barre:hover /*survole d'hébergement*/
+#barre:hover, #activite:hover /*survole d'hébergement et activité*/
 {
     border-top: 2px solid #0065FC;
 }

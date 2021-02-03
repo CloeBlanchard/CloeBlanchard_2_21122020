@@ -1,3 +1,31 @@
+/*en tête*/
+header
+{
+    width: 70%;
+    display: block;
+}
+
+#barre, #activite
+{
+    border-top: none;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: 0%;
+    margin-left: 0%;
+    border-bottom: solid 2px #f2f2f2;
+}
+#barre:hover, #activite:hover
+{
+    border-top: none;
+    border-bottom: solid 2px #0065fc;
+}
+.inscription
+{
+    position: absolute;
+    right: 10%;
+    top: 0%;
+    margin-top: -10%;
+}
 /*recherche*/
 .recherche a
 {
@@ -22,8 +50,7 @@
 /*Filtre*/
 .boutons
 {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
 }
 /*Populaires*/
 .populaires
@@ -31,12 +58,12 @@
     width: 100%;
     margin-right: 0%;
     margin-left: 0%;
-    margin-bottom: 5%;
+    margin-bottom: 20%;
 }
 .popubloc
 {
     height: 130px;
-    width: 50%;
+    width: 90%;
 }
 .photo
 {
@@ -58,29 +85,40 @@
 {
     width: 100%;
     height: 20%;
+    margin-right: 0%;
     margin-left: 0%;
     background: none;
-    margin-bottom: 5%;
+    margin-bottom: 20%;
 }
 .heberbloc
 {
-    width: 70%;
-    margin-left: 45%;
-    padding-bottom: 90px;
+    width: 100%;
+    margin: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 280px;
+    margin-bottom: 5%;
 }
 .photoheberge
 {
-    width: 100%;
-    height: 200px;
+    height: 310px;
+}
+.textheb
+{
+    font-size: 16px;
+    width: 50%;
 }
 .hotel
 {
-    width: 70%;
+    width: 100%;
+    margin-right: 0%;
     margin: 0%;
+    margin-left: 0%;
 }
 .afficher
 {
-    padding-top: 5%;
+    padding-top: 0.50%;
+
 }
  /*Fin bloc hébergements*/
 /*Activité*/
@@ -88,6 +126,7 @@
 {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20%;
 }
 .photo-2, .photo-3, .photo-4, .photo-5
 {
@@ -96,18 +135,18 @@
 }
 .contour-2, .contour-3, .contour-4
 {
-    width: 50%;
+    width: 100%;
     margin: 0%;
     margin-top: 5%;
-    margin-left: 25%;
+    margin-left: 0%;
 }
 .contour
 {
-    width: 50%;
+    width: 100%;
     margin: 0%;
     margin-top: 5%;
     height: 370px;
-    margin-left: 25%;
+    margin-left: 0%;
 }
 .box-2, .box-3
 {
@@ -124,8 +163,7 @@ footer
 .titrefoot
 {
     vertical-align: 0%;
-}*/
-
+}
 /*@media screen and (max-width: 953px){
     header
     {
