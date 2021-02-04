@@ -29,17 +29,7 @@ header a
     font-weight: bold;
     margin-left: 10%;
     padding-top: 15%;
-}
- /*survole d'acitivité*/
-{
-    border-top: 2px solid #0065FC;
-}
-#activite
-{
-    padding-left: 10%;
-    padding-right: 10%;
-    border-top: 2px solid #F2F2F2;
-    padding-top: 15%;
+    margin-top: 3.50%;
 }
 #activite a
 {
@@ -49,16 +39,18 @@ header a
 {
     color: #0065FC;
 }
-#barre
+#barre, #activite
 {
     padding-right: 10%;
     padding-left: 10%;
     border-top: 2px solid #F2F2F2;
     padding-top: 15%;
+    margin-top: 3.50%;
 }
 #barre:hover, #activite:hover /*survole d'hébergement et activité*/
 {
     border-top: 2px solid #0065FC;
+    margin-top: 3.50%;
 }
 /*Fin du header*/
 
@@ -116,6 +108,7 @@ h2
 body
 {
     max-width: 100%;
+    margin: 0; 
     font-family: 'Raleway', sans-serif;
 }
 /*Fin corps de la page*/
@@ -151,7 +144,7 @@ body
     border: 3px solid #F2F2F2;
     display: inline-block;
     font-weight: bold;
-    border-left: none;
+    border-left: transparent;
     font-size: 14px;
     margin: 1%;
     padding-right: 2%;
