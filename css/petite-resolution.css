@@ -1,18 +1,18 @@
 /*en tête*/
 header
 {
-    width: 70%;
+    width: 65%;
+    margin: 0%;
     display: block;
 }
-
 #barre, #activite
 {
     border-top: none;
-    padding-left: 20%;
-    padding-right: 20%;
-    margin-left: 0%;
-    margin-left: 0%;
     border-bottom: solid 2px #f2f2f2;
+    padding-left: 30%;
+    padding-right: 40.50%;
+    margin-left: -10%;
+    padding-bottom: 3%;
 }
 #barre:hover, #activite:hover
 {
@@ -27,6 +27,11 @@ header
     margin-top: -10%;
 }
 /*recherche*/
+.reve
+{
+    word-wrap: break-word;
+    width: 35%;
+}
 .recherche a
 {
     display: none;
@@ -44,13 +49,29 @@ header
 }
 .marseille
 {
-    width: 50%;
+    width: 90%;
     border-radius: 0px 10px 10px 0px;
 }
 /*Filtre*/
 .boutons
 {
     display: block;
+}
+.romantique
+{
+    display: table;
+}
+.animaux
+{
+    margin-bottom: 5%;
+}
+.iconinfo
+{
+    margin-right: 2%;
+}
+.logement
+{
+    width: 40%;
 }
 /*Populaires*/
 .populaires
@@ -59,6 +80,10 @@ header
     margin-right: 0%;
     margin-left: 0%;
     margin-bottom: 20%;
+}
+.titrepopu
+{
+    width: 96%;
 }
 .popubloc
 {
@@ -164,49 +189,3 @@ footer
 {
     vertical-align: 0%;
 }
-/*@media screen and (max-width: 953px){
-    header
-    {
-        width: 85%;
-    }
-    .popubloc
-    {
-        font-size: 15px;
-    }
-    .textheb
-    {
-        width: 100%;
-    }
-}*/
-
-/*@media screen and (max-width: 937px){
-    .textheb
-    {
-        font-size: 15px;
-    }
-    .heberbloc
-    {
-        height: 167px;
-        width: 41%;
-        margin-bottom: 3%;
-    }
-}*/
-
-/*@media screen and  (max-width: 899px){
-    header
-    {
-        width: 80%;
-    }
-    .hebergements
-    {
-        width: 47%;
-    }
-    .heberbloc
-    {
-        width: 100%;
-    }
-    .populaires
-    {
-        width: 47%;
-    }
-}*/
