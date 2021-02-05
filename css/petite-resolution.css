@@ -41,8 +41,9 @@
     {
         position: absolute;
         right: 3%;
-        top: 0%;
-        margin-top: -90px;
+        top: 0;
+        padding-top: 1%;
+        margin-top: 0%;
     }
     /*recherche*/
     .reve, .logement
