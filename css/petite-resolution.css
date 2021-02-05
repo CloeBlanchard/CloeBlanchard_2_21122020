@@ -2,27 +2,35 @@
     /*en tête*/
     header
     {
-        width: 65%;
+        width: 100%;
         margin: 0%;
         display: block;
-    
+    }
+    nav
+    {
+        width: 100%;
     }
     .navigation
     {
         width: 100%;
-        margin-left: 17%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         font-size: 20px;
-        padding: 20px;
+        padding-top: 0;
+        padding-bottom: 20px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 2%;
     }
     #barre, #activite
     {
         border-top: none;
-        padding-top: 10%;
+        width: 50%;
+        text-align: center;
+        vertical-align: middle;
         border-bottom: solid 2px #f2f2f2;
         padding-bottom: 3%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
     }
     #barre:hover, #activite:hover
     {
@@ -32,9 +40,9 @@
     .inscription
     {
         position: absolute;
-        right: 0%;
+        right: 3%;
         top: 0%;
-        margin-top: -100px;
+        margin-top: -90px;
     }
     /*recherche*/
     .reve, .logement
@@ -62,10 +70,14 @@
     }
     .marseille
     {
-        width: 90%;
+        width: 80%;
         font-size: 17px;
         border-right: transparent;
         border-radius: 0px 10px 10px 0px;
+    }
+    .recherche
+    {
+        width: 100%;
     }
     /*Filtre*/
     .boutons
@@ -107,7 +119,7 @@
     }
     .logement
     {
-        width: 450px;
+        width: 100%;
     }
     /*Populaires*/
     .populaires
@@ -122,7 +134,6 @@
     {
         width: 96%;
     }
-
     .popubloc
     {
         height: 130px;
@@ -181,14 +192,12 @@
     .afficher
     {
         padding-top: 0.50%;
-    
+
     }
-     /*Fin bloc hébergements*/
+    /*Fin bloc hébergements*/
     /*Activité*/
     .groupeactive
     {
-        display: flex;
-        flex-direction: column;
         margin-bottom: 20%;
     }
     .photo-2, .photo-3, .photo-4, .photo-5
@@ -199,16 +208,14 @@
     .contour-2, .contour-3, .contour-4
     {
         width: 96%;
-        margin: 0%;
         margin-top: 5%;
         margin-left: 2%;
     }
     .contour
     {
         width: 96%;
-        margin: 0%;
+        
         margin-top: 5%;
-        height: 370px;
         margin-left: 2%;
     }
     .box-2, .box-3
@@ -227,6 +234,25 @@
     {
         vertical-align: 0%;
     }
+}
+
+@media screen and (max-width: 341px){
+    .textheb
+    {
+        font-size: 16px;
+        width: 60%;
     }
-    
-    
+}
+
+@media screen and (max-width: 324px){
+    .titrepopu
+    {
+        width: 95%;
+    }
+    .textpopu
+    {
+        height: 130px;
+        font-size: 16px;
+        width: 50%;
+    }
+}
