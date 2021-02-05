@@ -370,7 +370,7 @@ body
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
-.contour
+.fort
 {
     width: 100%;
     border-radius: 20px;
@@ -384,20 +384,20 @@ body
     font-weight: bold;
     width: 20%;
 }
-.contour-2
+.iles
 {
     width: 100%;
     border-radius: 20px;
     box-shadow: 3px 3px 3px  rgba(0,0,0,0.1), -.1em 0 .2em rgba(0,0,0,0.1);
     vertical-align: bottom;
 }
-.contour-3
+.petite-taille
 {
     border-radius: 20px;
     box-shadow: 3px 3px 3px  rgba(0,0,0,0.1), -.1em 0 .2em rgba(0,0,0,0.1);
     width: 100%;
 }
-.contour-4
+.grande-taille
 {
     border-radius: 20px;
     box-shadow: 3px 3px 3px  rgba(0,0,0,0.1), -.1em 0 .2em rgba(0,0,0,0.1);
