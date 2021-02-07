@@ -257,3 +257,17 @@
         width: 50%;
     }
 }
+
+@media screen and (max-width: 315px){
+    .textheb
+    {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 305px){
+    .textpopu
+    {
+        width: 55%;
+    }
+}
