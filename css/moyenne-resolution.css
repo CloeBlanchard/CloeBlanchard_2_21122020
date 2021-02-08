@@ -53,10 +53,6 @@
     {
         font-size: 13px;
     }
-    .economie:hover, .famille:hover, .romantique:hover, .animaux:hover
-    {
-        font-size: medium;
-    }
     /* Fin Filtres*/
     /*Bloc hébergements*/
     .hebergements
