@@ -9,7 +9,6 @@ header
     display: flex;
     justify-content: space-between;
     width: 90%;
-    color: #0065FC;
 }
 header a
 {
@@ -31,13 +30,13 @@ header a
     padding-top: 15%;
     margin-top: 3.50%;
 }
-#activite a
+#barre a, #activite a
 {
     color: black;
 }
-#barre a
+#barre a:hover, #activite a:hover
 {
-    color: #0065FC;
+    color: #0065fc;
 }
 #barre, #activite
 {
@@ -51,11 +50,12 @@ header a
 {
     border-top: 2px solid #0065FC;
     margin-top: 3.50%;
+    color: #0065fc;
 }
 /*Fin du header*/
 
 /*Mise en page section zone de recherche*/
-h2
+.reve
 {
     text-justify: auto;
     font-size: 17px;
@@ -152,8 +152,8 @@ body
 .economie:hover, .famille:hover, .romantique:hover, .animaux:hover
 {
     color: #0065FC;
-    font-size: large;
-    border: 4px solid #F2F2F2;
+    border: 3px solid #F2F2F2;
+    border-left: transparent;
 }
 .fa-info
 {
@@ -311,16 +311,13 @@ body
     font-weight: bold;
     margin-left: 5%;
 }
-.bloc
-{
-    margin-bottom: 5%;
-}
 /*Fin bloc hébergements*/
 
 /*Bloc activité*/
 .textactive
 {
-    margin-left: 5%;
+    padding-left: 5%;
+    font-size: 15px;
     vertical-align: middle;
 }
 #marseille
@@ -414,8 +411,22 @@ body
     width: 20%;
     margin-right: 20px;
 }
-
 /*Fin du bloc activité*/
+
+/* Bloc */
+.popubloc:hover, .heberbloc:hover, .petite-taille:hover, .grande-taille:hover, .iles:hover, .fort:hover
+{
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3), -.4em 0 .4em rgba(0,0,0,0.3);
+}
+.textpopu:hover, .textheb:hover, .textactive:hover
+{
+    color: #0065fc;
+}
+.bloc
+{
+    margin-bottom: 5%;
+}
+/* Fin bloc*/
 
 /*Bloc Footer*/
 ul
@@ -431,10 +442,15 @@ footer
 .propos, .charte, .assistance
 {
     flex: 1 1 auto;
+    font-size: 10px;
 }
 .propos a, .charte a, .assistance a
 {
     text-decoration: none;
     color: black;
+}
+.propos a:hover, .charte a:hover, .assistance a:hover
+{
+    color: #0065fc;
 }
 /*Fin bloc footer*/
