@@ -235,6 +235,12 @@
     {
         vertical-align: 0%;
     }
+     /*footer*/
+     .propos, .charte, .assistance
+     {
+         font-size: 18px;
+     }
+     /*fin footer*/
 }
 
 @media screen and (max-width: 341px){
