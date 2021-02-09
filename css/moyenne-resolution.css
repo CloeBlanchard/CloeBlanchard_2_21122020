@@ -5,6 +5,7 @@
         width: 88%;
     }
     /*fin en tête*/
+
     /*bloc hebergement*/
     .hebergements
     {
@@ -23,6 +24,7 @@
     }
     /*fin populaires*/
 }
+
 @media screen and (max-width: 1244px){
     /*populaires*/
     .textheb
@@ -147,6 +149,7 @@
         width: 85%;
     }
     /*fin en tête*/
+
     /*populaire*/
     .textpopu
     {
@@ -222,18 +225,23 @@
     {
         padding-top: 5%;
     }
+    /*fin hebergemenent*/
 }
 
 @media screen and (max-width: 909px){
+    /*en tête*/
     header
     {
         width: 85%;
     }
+    /*fin en tête*/
 }
 
 @media screen and (max-width: 849px){
+    /*en tête*/
     header
     {
         width: 83%;
     }
+    /*fin en tête*/
 }
