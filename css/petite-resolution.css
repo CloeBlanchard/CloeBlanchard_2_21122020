@@ -45,6 +45,8 @@
         padding-top: 1%;
         margin-top: 0%;
     }
+    /*fin en tête*/
+
     /*recherche*/
     .reve, .logement
     {
@@ -80,6 +82,8 @@
     {
         width: 100%;
     }
+    /*fin recherche*/
+
     /*Filtre*/
     .boutons
     {
@@ -122,6 +126,8 @@
     {
         width: 100%;
     }
+    /*fin filtres*/
+
     /*Populaires*/
     .populaires
     {
@@ -196,6 +202,7 @@
 
     }
     /*Fin bloc hébergements*/
+
     /*Activité*/
     .groupeactive
     {
@@ -225,6 +232,7 @@
         margin: 0%;
     }
     /*fin activité*/
+
     /*footer*/
     footer
     {
@@ -244,14 +252,17 @@
 }
 
 @media screen and (max-width: 341px){
+    /*hebergements*/
     .textheb
     {
         font-size: 16px;
         width: 60%;
     }
+    /*fin hebergements*/
 }
 
 @media screen and (max-width: 324px){
+    /*populaires*/
     .titrepopu
     {
         width: 95%;
@@ -262,18 +273,23 @@
         font-size: 16px;
         width: 50%;
     }
+    /*fin populaires*/
 }
 
 @media screen and (max-width: 315px){
+    /*hebergements*/
     .textheb
     {
         width: 65%;
     }
+    /*fin hebergements*/
 }
 
 @media screen and (max-width: 305px){
+    /*populaires*/
     .textpopu
     {
         width: 55%;
     }
+    /*fin populaires*/
 }
