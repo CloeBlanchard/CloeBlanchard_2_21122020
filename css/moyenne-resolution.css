@@ -11,6 +11,7 @@
         width: 65%;
     }
     /*fin hebergements*/
+
     /*bloc populaires*/
     .populaires
     {
@@ -23,11 +24,14 @@
     /*fin populaires*/
 }
 @media screen and (max-width: 1244px){
+    /*populaires*/
     .textheb
     {
         width: 100%;
     }
+    /*ifn populaires*/
 }
+
 @media screen and (max-width: 1200px){ /*Passage en repsonsive Tablette*/
     /*en tête*/
     header
@@ -35,6 +39,7 @@
         width: 87%;
     }
     /*fin en tête*/
+
     /* Filtres */
     .filtres
     {
@@ -52,6 +57,7 @@
         font-size: 13px;
     }
    /* Fin Filtres*/
+
     /*Bloc hébergements*/
     .hebergements
     {
@@ -72,6 +78,7 @@
         height: 110px;
     }
     /*Fin bloc hébergements*/
+
     /*bloc populaire*/
     .populaires
     {
@@ -79,6 +86,7 @@
         margin-right: 2%;
     }
     /*Fin bloc populaires*/
+
     /*Activité*/
     .groupeactive
     {
@@ -123,6 +131,7 @@
         margin: 0%;
     }
     /*fin activité*/
+
     /*footer*/
     .propos, .charte, .assistance
     {
@@ -130,17 +139,22 @@
     }
     /*fin footer*/
 }
+
 @media screen and (max-width: 1016px){
     /*en tête*/
     header
     {
         width: 85%;
     }
+    /*fin en tête*/
+    /*populaire*/
     .textpopu
     {
         width: 20%;
     }
+    /*fin populaire*/
 }
+
 @media screen and (max-width: 948px){
     /*Populaires*/
     .titrepopu
@@ -171,12 +185,13 @@
         height: 137px;
         width: 50%;
     }
-    /*Fin populaires*/
     .bloc
     {
         display: flex;
         flex-direction: column;
     }
+    /*Fin populaires*/
+
     /*Hébergements*/
     .hebergements
     {
@@ -208,12 +223,14 @@
         padding-top: 5%;
     }
 }
+
 @media screen and (max-width: 909px){
     header
     {
         width: 85%;
     }
 }
+
 @media screen and (max-width: 849px){
     header
     {
