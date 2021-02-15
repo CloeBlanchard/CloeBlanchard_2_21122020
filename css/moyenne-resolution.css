@@ -20,7 +20,7 @@
     }
     .textpopu
     {
-        width: 15%;
+        width: 14%;
     }
     /*fin populaires*/
 }
@@ -29,7 +29,7 @@
     /*populaires*/
     .textheb
     {
-        width: 100%;
+        width: 95%;
     }
     /*ifn populaires*/
 }
@@ -75,6 +75,10 @@
         margin-left: 4%;
         margin-bottom: 0%;
     }
+    .textheb
+    {
+        padding-bottom: 2%;
+    }
     .photoheberge
     {
         height: 110px;
@@ -87,6 +91,10 @@
         width: 40%;
         margin-right: 2%;
         height: 691px;
+    }
+    .textpopu
+    {
+        width: 19%;
     }
     /*Fin bloc populaires*/
 
@@ -150,13 +158,6 @@
         width: 85%;
     }
     /*fin en tête*/
-
-    /*populaire*/
-    .textpopu
-    {
-        width: 20%;
-    }
-    /*fin populaire*/
 }
 
 @media screen and (max-width: 948px){
@@ -187,7 +188,8 @@
     .textpopu
     {
         height: 137px;
-        width: 50%;
+        width: 29.5%;
+        padding-bottom: 0.5%;
     }
     .bloc
     {
@@ -204,6 +206,10 @@
         margin-left: 0%;
         margin-bottom: 5%;
         border-radius: 0%;
+    }
+    .textheb
+    {
+        padding-bottom: 0.9%;
     }
     .heberbloc
     {
